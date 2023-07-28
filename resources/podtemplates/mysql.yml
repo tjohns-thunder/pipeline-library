@@ -1,6 +1,7 @@
 kind: Pod
 metadata:
   name: mysql
+  namespace: mysql
 spec:
   serviceAccountName: jenkins
   containers:
