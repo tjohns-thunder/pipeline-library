@@ -5,7 +5,7 @@ metadata:
 spec:
   serviceAccountName: jenkins
   containers:
-  - name: kubectl
+  - name: mysql
     image: mysql:latest
     resources:
       requests:
